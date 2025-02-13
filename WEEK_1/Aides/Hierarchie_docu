@@ -1,0 +1,69 @@
+STRUCTURE PYTHON POUR PRODUCTION DOCUMENTAIRE
+│
+├─── 1. CLASSES
+│    ├── Exemple : class DocumentaireProjet:
+│    │   └── Structure :
+│    │       class DocumentaireProjet:
+│    │           def __init__(self, titre, durée, budget):
+│    │               self.titre = titre
+│    │               self.durée = durée
+│    │               self.budget = budget
+│    │
+├─── 2. OBJETS
+│    ├── Exemple concret :
+│    │   └── mont_aiguille = DocumentaireProjet(
+│    │       titre="Retour au Mont Aiguille",
+│    │       durée="52 minutes",
+│    │       budget=50000
+│    │       )
+│    │
+├─── 3. FONCTIONS
+│    ├── Exemple Production :
+│    │   def calculer_temps_montage(durée_rushes, ratio_montage):
+│    │       return durée_rushes * ratio_montage
+│    │
+│    ├── Exemple AI :
+│    │   def upscaler_video(fichier_source, resolution_cible):
+│    │       # Utilisation de Runway ML pour l'upscaling
+│    │       return fichier_amelioré
+│    │
+├─── 4. MÉTHODES
+│    ├── Exemple dans une classe Documentaire :
+│    │   class Documentaire:
+│    │       def ajouter_sequence(self, sequence):
+│    │           self.sequences.append(sequence)
+│    │       
+│    │       def calculer_budget_total(self):
+│    │           return sum(sequence.cout for sequence in self.sequences)
+│    │
+├─── 5. VARIABLES
+│    ├── Variables de Production :
+│    │   ├── équipement = {
+│    │   │   "caméras": ["Sony AS73", "Panasonic GH7"],
+│    │   │   "drones": ["Parrot", "DJI"]
+│    │   │   }
+│    │   ├── formats_export = ["4K", "1080p", "720p"]
+│    │   └── durée_totale = 3600  # en secondes
+│    │
+│    ├── Variables AI :
+│    │   ├── outils_ia = {
+│    │   │   "video": ["Runway ML", "Kling AI"],
+│    │   │   "audio": ["Suno"],
+│    │   │   "image": ["Midjourney"]
+│    │   │   }
+│    │
+└─── 6. MODULES/PACKAGES
+     ├── Exemple d'organisation :
+     │   ├── production/
+     │   │   ├── gestion_projet.py
+     │   │   ├── montage.py
+     │   │   └── export.py
+     │   │
+     │   ├── ia_tools/
+     │   │   ├── upscaling.py
+     │   │   ├── colorisation.py
+     │   │   └── audio_enhancement.py
+     │   │
+     │   └── utils/
+     │       ├── conversion.py
+     │       └── metadata.py

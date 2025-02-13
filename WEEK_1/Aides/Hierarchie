@@ -1,0 +1,47 @@
+STRUCTURE PYTHON
+│
+├─── 1. CLASSES
+│    ├── Définition : Plan/modèle pour créer des objets
+│    ├── Caractéristiques :
+│    │   ├── Attributs (variables de classe)
+│    │   └── Méthodes (fonctions de classe)
+│    └── Exemple : class MaClasse:
+│
+├─── 2. OBJETS
+│    ├── Définition : Instances concrètes d'une classe
+│    ├── Propriétés :
+│    │   ├── État (valeurs des attributs)
+│    │   └── Comportement (méthodes utilisables)
+│    └── Exemple : mon_objet = MaClasse()
+│
+├─── 3. FONCTIONS
+│    ├── Types :
+│    │   ├── Fonctions intégrées (built-in)
+│    │   ├── Fonctions définies par l'utilisateur
+│    │   └── Fonctions lambda (anonymes)
+│    └── Structure : def nom_fonction(paramètres):
+│
+├─── 4. MÉTHODES
+│    ├── Types :
+│    │   ├── Méthodes d'instance (self)
+│    │   ├── Méthodes de classe (@classmethod)
+│    │   └── Méthodes statiques (@staticmethod)
+│    └── Appartenance : Toujours liées à une classe
+│
+├─── 5. VARIABLES
+│    ├── Portée :
+│    │   ├── Locales (dans une fonction)
+│    │   ├── Globales (niveau module)
+│    │   └── D'instance (self.variable)
+│    └── Types de données :
+│        ├── Nombres (int, float)
+│        ├── Chaînes (str)
+│        ├── Listes (list)
+│        ├── Tuples (tuple)
+│        └── Dictionnaires (dict)
+│
+└─── 6. MODULES/PACKAGES
+     ├── Organisation :
+     │   ├── Modules (fichiers .py)
+     │   └── Packages (dossiers avec __init__.py)
+     └── Utilisation : import module
