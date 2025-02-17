@@ -1,0 +1,25 @@
+class ProductionDocumentaire:
+    def __init__(self, titre, réalisateur):
+        self.titre = titre
+        self.réalisateur = réalisateur
+        self.sequences = []
+        self.budget_total = 0
+        self.outils_ia = {
+            "upscaling": "Runway ML",
+            "colorisation": "Kling AI",
+            "audio": "Suno"
+        }
+
+    def ajouter_sequence(self, nom, durée, lieu):
+        sequence = {
+            "nom": nom,
+            "durée": durée,
+            "lieu": lieu,
+            "statut": "planifié"
+        }
+        self.sequences.append(sequence)
+
+    def appliquer_ia_amelioration(self, sequence_index, type_amelioration):
+        if type_amelioration in self.outils_ia:
+            outil = self.outils_ia[type_amelioration]
+            print(f"Application de {outil} sur la séquence {self.sequences[sequence_index]['nom']}")

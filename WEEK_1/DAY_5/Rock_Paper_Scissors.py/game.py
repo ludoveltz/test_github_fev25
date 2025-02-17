@@ -58,9 +58,3 @@ class Game:
         print(result_messages[result])
 
         return result
-
-# Test the game (optional)
-if __name__ == "__main__":
-    # This will only run if game.py is run directly
-    game = Game()
-    game.play()
