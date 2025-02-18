@@ -1,0 +1,39 @@
+1. Rapports financiers d'entreprise stockés dans un fichier Excel
+➡️ Type : Données Structurées
+Justification :
+- Format tabulaire avec colonnes et lignes définies
+- Champs prédéfinis (revenus, dépenses, dates, etc.)
+- Organisation systématique des données
+- Facilement interrogeable et analysable
+
+2. Photographies téléchargées sur une plateforme de médias sociaux
+➡️ Type : Données Non Structurées
+Justification :
+- Contenu visuel sans format prédéfini
+- Variations infinies possibles
+- Pas de structure fixe
+- Nécessite des techniques avancées pour l'analyse
+
+3. Collection d'articles de presse sur un site web
+➡️ Type : Données Non Structurées
+Justification :
+- Texte libre
+- Format variable
+- Contenu narratif
+- Pas de structure standardisée pour le contenu principal
+
+4. Données d'inventaire dans une base de données relationnelle
+➡️ Type : Données Structurées
+Justification :
+- Organisation en tables avec schéma défini
+- Champs standardisés (ID produit, quantité, prix, etc.)
+- Relations clairement établies
+- Facilement interrogeable via SQL
+
+5. Entretiens enregistrés d'une étude de marché
+➡️ Type : Données Non Structurées
+Justification :
+- Contenu audio avec conversations libres
+- Pas de format prédéfini
+- Réponses variables et imprévisibles
+- Nécessite une transcription et analyse qualitative

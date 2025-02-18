@@ -1,0 +1,113 @@
+1. Série d'articles de blog sur les expériences de voyage
+
+Structure proposée (table "Articles_Voyage") :
+
+{
+    "ID_Article": "integer",
+    "Date_Publication": "date",
+    "Titre": "text",
+    "Auteur": "text",
+    "Destination": "text",
+    "Durée_Voyage": "integer",
+    "Budget": "decimal",
+    "Catégories": ["hébergement", "restauration", "activités", "transport"],
+    "Mots_Clés": ["array"],
+    "Sentiment_Analysis": "float",
+    "Nombre_Vues": "integer"
+}
+
+
+Méthode de transformation :
+- Utilisation du NLP pour extraire les informations clés
+- Catégorisation automatique des sujets
+- Analyse des sentiments pour évaluer l'expérience
+- Extraction des lieux et dates mentionnés
+
+
+2. Enregistrements audio des appels du service client
+
+Structure proposée (table "Appels_Service_Client") :
+
+{
+    "ID_Appel": "integer",
+    "Date_Heure": "datetime",
+    "Durée_Appel": "time",
+    "ID_Client": "integer",
+    "ID_Agent": "integer",
+    "Motif_Appel": "text",
+    "Catégorie_Problème": "text",
+    "Résolution": "boolean",
+    "Niveau_Satisfaction": "integer",
+    "Mots_Clés_Détectés": ["array"],
+    "Temps_Attente": "time",
+    "Transcription": "text"
+}
+
+
+Méthode de transformation :
+- Transcription audio vers texte
+- Détection automatique des émotions
+- Extraction des motifs d'appel
+- Classification des problèmes
+- Analyse des temps de réponse
+
+
+3. Notes manuscrites d'une séance de brainstorming
+
+Structure proposée (table "Notes_Brainstorming") :
+
+{
+    "ID_Session": "integer",
+    "Date_Session": "date",
+    "Participant": "text",
+    "Thème": "text",
+    "Catégorie_Idée": "text",
+    "Description": "text",
+    "Priorité": "integer",
+    "Statut": "text",
+    "Actions_Suivies": ["array"],
+    "Tags": ["array"]
+}
+
+
+Méthode de transformation :
+- OCR pour numériser les notes
+- Catégorisation des idées
+- Attribution de priorités
+- Organisation hiérarchique
+- Liaison avec les actions de suivi
+
+
+4. Tutoriel vidéo de cuisine
+
+Structure proposée (table "Tutoriel_Cuisine") :
+
+{
+    "ID_Video": "integer",
+    "Titre_Recette": "text",
+    "Durée": "time",
+    "Chef": "text",
+    "Ingrédients": [{
+        "Nom": "text",
+        "Quantité": "decimal",
+        "Unité": "text"
+    }],
+    "Étapes": [{
+        "Numéro": "integer",
+        "Description": "text",
+        "Durée": "time",
+        "Température": "integer"
+    }],
+    "Niveau_Difficulté": "text",
+    "Temps_Préparation": "time",
+    "Temps_Cuisson": "time",
+    "Tags": ["array"]
+}
+
+
+Méthode de transformation :
+- Reconnaissance d'objets pour identifier les ingrédients
+- Transcription audio pour les instructions
+- Segmentation temporelle des étapes
+- Extraction des données techniques (températures, durées)
+- Classification du niveau de difficulté
