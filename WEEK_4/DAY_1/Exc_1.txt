@@ -1,0 +1,35 @@
+1. Différence clé entre machine learning traditionnel et deep learning :
+- ML traditionnel : Requiert une extraction manuelle des caractéristiques (feature engineering)
+- Deep Learning : Apprentissage automatique des caractéristiques à partir des données brutes
+
+2. Comment les réseaux de neurones artificiels imitent le cerveau humain :
+- Structure en neurones interconnectés
+- Transmission d'information via des poids synaptiques
+- Apprentissage par ajustement des connexions selon l'expérience
+
+3. Pourquoi le deep learning est meilleur sur les grands datasets :
+- Capacité à extraire plus de patterns complexes
+- Meilleure généralisation avec plus de données
+- Amélioration continue des performances avec plus d'exemples
+
+4. Défis du deep learning et solutions :
+- Besoin de grandes quantités de données → Data augmentation
+- Coût computationnel élevé → Utilisation GPU/TPU
+- Surapprentissage → Techniques de régularisation
+- Interprétabilité limitée → Méthodes d'explicabilité
+
+5. Feature engineering et deep learning :
+- Feature engineering : Création manuelle de caractéristiques basée sur l'expertise
+- Deep learning : Apprentissage automatique des caractéristiques pertinentes
+- Avantage : Réduit le besoin d'expertise domaine-spécifique
+
+6. Rôle des couches cachées :
+- Extraction progressive de caractéristiques
+- Transformation des données en représentations de plus en plus abstraites
+- Construction d'une hiérarchie de concepts
+
+7. Fonction d'activation dans un ANN :
+- Introduction de non-linéarité dans le réseau
+- Transformation des entrées en sorties bornées
+- Types communs : ReLU, sigmoid, tanh
+- Permet l'apprentissage de relations complexes
