@@ -1,0 +1,150 @@
+### 1. Modèle Supervisé : Classification de Défaut de Paiement
+
+#### A. Stratégie d'Évaluation
+from sklearn.metrics import accuracy_score, precision_recall_curve, roc_curve
+from sklearn.model_selection import cross_val_score
+
+class LoanClassifierEvaluator:
+    def __init__(self, model):
+        self.model = model
+        
+    def evaluate(self, X_train, X_test, y_train, y_test):
+        # Cross-validation
+        cv_scores = cross_val_score(self.model, X_train, y_train, cv=5)
+        
+        # Métriques principales
+        y_pred = self.model.predict(X_test)
+        y_pred_proba = self.model.predict_proba(X_test)[:, 1]
+        
+        return {
+            'accuracy': accuracy_score(y_test, y_pred),
+            'cv_scores': cv_scores.mean(),
+            'roc_auc': roc_auc_score(y_test, y_pred_proba)
+        }
+
+#### B. Métriques Clés
+1. **Métriques de Base**
+   - Accuracy
+   - Precision/Recall
+   - F1-Score
+   - AUC-ROC
+
+2. **Validation**
+   - K-fold Cross-validation
+   - Validation temporelle
+   - Test sur données hors échantillon
+
+#### C. Défis et Limitations
+- Déséquilibre des classes
+- Coût asymétrique des erreurs
+- Drift temporel des données
+
+### 2. Modèle Non-Supervisé : Clustering de Clients
+
+#### A. Stratégie d'Évaluation
+from sklearn.metrics import silhouette_score
+from sklearn.cluster import KMeans
+
+class CustomerSegmentationEvaluator:
+    def evaluate_clustering(self, X, k_range):
+        scores = []
+        for k in k_range:
+            kmeans = KMeans(n_clusters=k)
+            labels = kmeans.fit_predict(X)
+            
+            silhouette = silhouette_score(X, labels)
+            inertia = kmeans.inertia_
+            
+            scores.append({
+                'k': k,
+                'silhouette': silhouette,
+                'inertia': inertia
+            })
+        return scores
+
+#### B. Métriques Clés
+1. **Métriques Internes**
+   - Silhouette Score
+   - Inertie (Elbow Method)
+   - Calinski-Harabasz Index
+
+2. **Validation Business**
+   - Interprétabilité des clusters
+   - Stabilité temporelle
+   - Utilité métier
+
+#### C. Défis et Limitations
+- Choix du nombre de clusters
+- Validation sans ground truth
+- Stabilité des clusters
+
+### 3. Modèle par Renforcement : Trading Automatique
+
+#### A. Stratégie d'Évaluation
+class TradingAgentEvaluator:
+    def evaluate_agent(self, agent, environment, episodes):
+        metrics = {
+            'cumulative_rewards': [],
+            'avg_reward_per_episode': [],
+            'sharpe_ratio': [],
+            'max_drawdown': []
+        }
+        
+        for episode in range(episodes):
+            state = environment.reset()
+            done = False
+            episode_rewards = []
+            
+            while not done:
+                action = agent.choose_action(state)
+                next_state, reward, done, _ = environment.step(action)
+                episode_rewards.append(reward)
+                state = next_state
+                
+            metrics['cumulative_rewards'].append(sum(episode_rewards))
+            
+        return metrics
+
+#### B. Métriques Clés
+1. **Métriques de Performance**
+   - Récompense cumulée
+   - Ratio de Sharpe
+   - Maximum Drawdown
+   - Win Rate
+
+2. **Métriques d'Apprentissage**
+   - Convergence
+   - Stabilité
+   - Exploration vs Exploitation
+
+#### C. Défis et Limitations
+- Surapprentissage sur données historiques
+- Gestion du risque
+- Changements de régime de marché
+
+### Recommandations Générales
+
+1. **Pipeline d'Évaluation**
+class ModelEvaluationPipeline:
+    def __init__(self):
+        self.evaluators = {
+            'supervised': LoanClassifierEvaluator(),
+            'unsupervised': CustomerSegmentationEvaluator(),
+            'reinforcement': TradingAgentEvaluator()
+        }
+    
+    def evaluate_all(self, data):
+        results = {}
+        for model_type, evaluator in self.evaluators.items():
+            results[model_type] = evaluator.evaluate(data)
+        return results
+
+2. **Visualisation des Résultats**
+def plot_evaluation_results(results):
+    # Visualisations spécifiques pour chaque type
+    pass
+
+3. **Monitoring Continu**
+def monitor_model_performance(model, new_data, frequency='daily'):
+    # Suivi des performances dans le temps
+    pass

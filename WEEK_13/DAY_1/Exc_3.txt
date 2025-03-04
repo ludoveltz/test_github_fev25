@@ -1,0 +1,92 @@
+Je vais détailler le choix des modèles et l'évaluation pour la prédiction de prêts.
+
+## 🌟 Exercise 3 : Entraînement, Évaluation et Optimisation du Modèle
+
+### 1. Choix des Modèles
+
+#### A. Modèles Recommandés 
+
+1. **Random Forest**
+   - Avantages :
+     - Gère bien les données non linéaires
+     - Robuste aux outliers
+     - Fournit l'importance des features
+   - Adapté aux données de crédit mixtes
+
+2. **XGBoost/LightGBM**
+   - Avantages :
+     - Performance supérieure
+     - Gestion efficace des valeurs manquantes
+     - Optimisation automatique
+   
+3. **Régression Logistique**
+   - Avantages :
+     - Interprétabilité élevée
+     - Baseline solide
+     - Similaire au scoring crédit traditionnel
+
+### 2. Étapes d'Évaluation
+
+#### A. Préparation des Données
+1. **Split des Données**
+   - Train/Test : 80/20
+   - Validation croisée : 5-fold
+
+2. **Équilibrage des Classes**
+   - SMOTE pour les cas minoritaires
+   - Under-sampling des cas majoritaires
+
+#### B. Métriques d'Évaluation
+
+1. **Métriques Principales**
+   - AUC-ROC : Mesure globale de performance
+   - Precision : Éviter les faux positifs coûteux
+   - Recall : Ne pas manquer les défauts réels
+   - F1-Score : Balance precision/recall
+
+2. **Métriques Métier**
+   - Coût des faux positifs (prêts refusés à tort)
+   - Coût des faux négatifs (défauts non détectés)
+   - Gain/Perte financière attendue
+
+### 3. Optimisation du Modèle
+
+#### A. Hyperparamètres
+1. **Grid Search / Random Search**
+   - Profondeur des arbres
+   - Nombre d'estimateurs
+   - Learning rate
+
+2. **Validation Croisée**
+   - K-fold stratifié
+   - Time series split si temporel
+
+#### B. Feature Engineering
+1. **Création de Features**
+   - Ratio dette/revenu
+   - Score composite crédit
+   - Interactions entre variables
+
+### 4. Monitoring et Maintenance
+
+1. **Suivi des Performances**
+   - Drift des données
+   - Stabilité du modèle
+   - Alertes de performance
+
+2. **Mise à Jour**
+   - Réentraînement périodique
+   - Ajustement des seuils
+   - Adaptation aux changements
+
+### 6. Points d'Attention Particuliers
+
+1. **Biais et Équité**
+   - Test de biais sur variables sensibles
+   - Équité des décisions
+   - Conformité réglementaire
+
+2. **Interprétabilité**
+   - SHAP values
+   - Feature importance
+   - Règles métier explicites

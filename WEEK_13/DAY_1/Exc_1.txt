@@ -1,0 +1,71 @@
+# Exercice 1 : Définition du Problème et Collecte de Données pour la Prédiction de Défaut de Prêt
+
+## 1. Énoncé du Problème
+**Objectif** : Développer un modèle prédictif pour identifier les clients susceptibles de faire défaut sur leur prêt bancaire.
+
+**Problème spécifique** : Comment prédire avec précision la probabilité qu'un demandeur de prêt ne rembourse pas son prêt, basé sur ses caractéristiques et son historique ?
+
+## 2. Types de Données Nécessaires
+
+### Données Personnelles
+- Âge
+- Revenu
+- Situation professionnelle
+- État civil
+- Nombre de personnes à charge
+
+### Données Financières
+- Score de crédit
+- Historique des prêts
+- Montant du prêt demandé
+- Durée du prêt
+- Ratio dette/revenu
+
+### Données Comportementales
+- Historique des paiements
+- Relations bancaires existantes
+- Nombre de comptes
+- Antécédents de défaut
+
+## 3. Sources de Données
+
+### Sources Internes
+- Base de données clients de la banque
+- Historique des transactions
+- Dossiers de prêts précédents
+- Registres des défauts de paiement
+
+### Sources Externes
+- Bureaux de crédit
+- Registres publics
+- Données économiques
+- Indicateurs du marché
+
+## 4. Plan de Collecte de Données
+
+### Phase 1 : Préparation
+- Identifier les variables prédictives clés
+- Établir des protocoles de collecte
+- Mettre en place des systèmes de stockage sécurisés
+
+### Phase 2 : Collecte
+- Extraire les données internes
+- Obtenir les rapports de crédit
+- Collecter les données de marché pertinentes
+
+### Phase 3 : Validation
+- Vérifier la qualité des données
+- Identifier les données manquantes
+- Valider la cohérence des informations
+
+## 5. Considérations Spéciales
+
+### Protection des Données
+- Conformité RGPD
+- Sécurisation des données personnelles
+- Anonymisation des données sensibles
+
+### Qualité des Données
+- Nettoyage des données
+- Gestion des valeurs manquantes
+- Standardisation des formats

@@ -1,0 +1,43 @@
+1. Prédiction des Prix des Actions 📈
+Solution Recommandée : Apprentissage Supervisé - Séries Temporelles
+Modèles spécifiques :
+- LSTM (Long Short-Term Memory)
+- Prophet (Facebook)
+- ARIMA/SARIMA
+- XGBoost avec features temporelles
+
+Justification
+- Données séquentielles temporelles
+- Patterns complexes et non-linéaires
+- Besoin de capturer les dépendances à long terme
+- Multiples variables d'influence (prix, volume, indicateurs techniques)
+
+
+2. Organisation d'une Bibliothèque de Livres 📚
+Solution Recommandée : Apprentissage Non Supervisé - Clustering & NLP
+Modèles spécifiques :
+- K-Means
+- LDA (Latent Dirichlet Allocation)
+- BERT pour l'embedding des textes
+- Hierarchical Clustering
+
+Justification
+- Pas de labels prédéfinis nécessaires
+- Découverte de patterns naturels
+- Traitement du langage naturel pour les descriptions
+- Possibilité de créer une hiérarchie de catégories
+
+
+3. Navigation de Robot dans un Labyrinthe 🤖
+Solution Recommandée : Apprentissage par Renforcement
+Modèles spécifiques :
+- Q-Learning
+- Deep Q-Network (DQN)
+- A* pour le pathfinding
+- Policy Gradient Methods
+
+Justification
+- Environnement interactif
+- Apprentissage par essai-erreur
+- Optimisation d'un objectif (chemin le plus court)
+- Adaptation dynamique à l'environnement
