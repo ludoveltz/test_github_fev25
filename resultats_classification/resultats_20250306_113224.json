@@ -1,0 +1,492 @@
+[
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/calendula/28851355744_fcb4f95e74_c.jpg",
+    "classe_reelle": "calendula",
+    "classe": "california_poppy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.392322"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/calendula/48484842896_c9bb405ae4_c.jpg",
+    "classe_reelle": "calendula",
+    "classe": "california_poppy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.441752"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/calendula/4649784168_f3c2da8dc7_c.jpg",
+    "classe_reelle": "calendula",
+    "classe": "common_daisy",
+    "confiance": 0.9995003938674927,
+    "timestamp": "2025-03-06T11:32:21.491381"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/calendula/2909497562_f317c1590f_c.jpg",
+    "classe_reelle": "calendula",
+    "classe": "calendula",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.538653"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/calendula/47748909662_3e9c77a4af_c.jpg",
+    "classe_reelle": "calendula",
+    "classe": "california_poppy",
+    "confiance": 0.9984744191169739,
+    "timestamp": "2025-03-06T11:32:21.590472"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/bellflower/7571141200_8c6863db5b_c.jpg",
+    "classe_reelle": "bellflower",
+    "classe": "water_lily",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.645266"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/bellflower/48011787111_34208c1ca6_c.jpg",
+    "classe_reelle": "bellflower",
+    "classe": "bellflower",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.692762"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/bellflower/49998772403_3cef2da323_c.jpg",
+    "classe_reelle": "bellflower",
+    "classe": "bellflower",
+    "confiance": 0.9999998807907104,
+    "timestamp": "2025-03-06T11:32:21.741522"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/bellflower/7588941970_eacdb7c32c_c.jpg",
+    "classe_reelle": "bellflower",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.792495"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/bellflower/2052572550_a3a231949c_c.jpg",
+    "classe_reelle": "bellflower",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.844056"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/iris/5662189283_4dcfe39c51_c.jpg",
+    "classe_reelle": "iris",
+    "classe": "iris",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.897551"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/iris/4637492320_781a809560_c.jpg",
+    "classe_reelle": "iris",
+    "classe": "iris",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.943018"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/iris/14182403531_4a96c3ab1e_c.jpg",
+    "classe_reelle": "iris",
+    "classe": "bellflower",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:21.990176"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/iris/507086693_c97e7d7bf5_c.jpg",
+    "classe_reelle": "iris",
+    "classe": "iris",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.038053"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/iris/526130550_4232709812_c.jpg",
+    "classe_reelle": "iris",
+    "classe": "bellflower",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.087207"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/astilbe/121833397_0139a4bf24_c.jpg",
+    "classe_reelle": "astilbe",
+    "classe": "astilbe",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.140916"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/astilbe/3742440667_64273e0171_c.jpg",
+    "classe_reelle": "astilbe",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.202354"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/astilbe/1052212431_4963309d03_c.jpg",
+    "classe_reelle": "astilbe",
+    "classe": "astilbe",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.250834"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/astilbe/48796061661_de06dffc59_c.jpg",
+    "classe_reelle": "astilbe",
+    "classe": "astilbe",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.299282"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/astilbe/3763232543_3896242687_c.jpg",
+    "classe_reelle": "astilbe",
+    "classe": "astilbe",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.347395"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/common_daisy/14317879278_de54cd133a_c.jpg",
+    "classe_reelle": "common_daisy",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.398139"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/common_daisy/26664249162_f6d12e6130_c.jpg",
+    "classe_reelle": "common_daisy",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.447345"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/common_daisy/7073808141_5475af06d1_c.jpg",
+    "classe_reelle": "common_daisy",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.496394"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/common_daisy/8158454210_c63fdbb1d8_c.jpg",
+    "classe_reelle": "common_daisy",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.545345"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/common_daisy/5744731207_c5b39c0164_c.jpg",
+    "classe_reelle": "common_daisy",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.591787"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/california_poppy/2342305454_784034521e_c.jpg",
+    "classe_reelle": "california_poppy",
+    "classe": "california_poppy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.651211"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/california_poppy/50489962867_d7903320fe_c.jpg",
+    "classe_reelle": "california_poppy",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.699456"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/california_poppy/2090830922_030cc530c1_c.jpg",
+    "classe_reelle": "california_poppy",
+    "classe": "calendula",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.753403"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/california_poppy/35417358601_9d9a80a552_c.jpg",
+    "classe_reelle": "california_poppy",
+    "classe": "california_poppy",
+    "confiance": 0.9856024384498596,
+    "timestamp": "2025-03-06T11:32:22.805625"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/california_poppy/51263699299_9d23d99040_c.jpg",
+    "classe_reelle": "california_poppy",
+    "classe": "carnation",
+    "confiance": 0.9983586668968201,
+    "timestamp": "2025-03-06T11:32:22.853376"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/carnation/2489260520_205d51d62a_c.jpg",
+    "classe_reelle": "carnation",
+    "classe": "common_daisy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.904005"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/carnation/34688141783_6951f21b83_c.jpg",
+    "classe_reelle": "carnation",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:22.951239"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/carnation/18498590406_afce6f819f_c.jpg",
+    "classe_reelle": "carnation",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.009678"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/carnation/98128512_cdf48d1d5b_c.jpg",
+    "classe_reelle": "carnation",
+    "classe": "carnation",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.058782"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/carnation/401620279_a719c5a576_c.jpg",
+    "classe_reelle": "carnation",
+    "classe": "water_lily",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.106181"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/rose/25036282086_e5a9634785_c.jpg",
+    "classe_reelle": "rose",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.157385"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/rose/20018037665_61c39ffe84_c.jpg",
+    "classe_reelle": "rose",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.214082"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/rose/4666353418_fe516b8e2f_c.jpg",
+    "classe_reelle": "rose",
+    "classe": "carnation",
+    "confiance": 0.999997615814209,
+    "timestamp": "2025-03-06T11:32:23.262148"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/rose/15263487102_72ea5e8bd9_c.jpg",
+    "classe_reelle": "rose",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.308948"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/rose/33457200_b3976e5047_c.jpg",
+    "classe_reelle": "rose",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.356157"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/tulip/5676994792_e75ae9c322_c.jpg",
+    "classe_reelle": "tulip",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.407916"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/tulip/129940870_a9307a1904_c.jpg",
+    "classe_reelle": "tulip",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.454866"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/tulip/171423959_764f705df5_c.jpg",
+    "classe_reelle": "tulip",
+    "classe": "calendula",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.503169"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/tulip/13971369776_25ab4eb717_c.jpg",
+    "classe_reelle": "tulip",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.550362"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/tulip/17390719782_0002fa98a9_c.jpg",
+    "classe_reelle": "tulip",
+    "classe": "tulip",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.599671"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/black_eyed_susan/6863788984_b0cab489a5_c.jpg",
+    "classe_reelle": "black_eyed_susan",
+    "classe": "black_eyed_susan",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.660726"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/black_eyed_susan/3349629785_e1a2f3b18d_c.jpg",
+    "classe_reelle": "black_eyed_susan",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.708076"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/black_eyed_susan/9949720255_c8edaed943_c.jpg",
+    "classe_reelle": "black_eyed_susan",
+    "classe": "black_eyed_susan",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.755339"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/black_eyed_susan/7600558596_0936a76ca1_c.jpg",
+    "classe_reelle": "black_eyed_susan",
+    "classe": "coreopsis",
+    "confiance": 0.9969381093978882,
+    "timestamp": "2025-03-06T11:32:23.810446"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/black_eyed_susan/3400118349_c4344b900b_c.jpg",
+    "classe_reelle": "black_eyed_susan",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.857413"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/coreopsis/9953635783_e3ec744ce5_c.jpg",
+    "classe_reelle": "coreopsis",
+    "classe": "black_eyed_susan",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.909753"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/coreopsis/14802256844_025e1e6530_c.jpg",
+    "classe_reelle": "coreopsis",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:23.958053"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/coreopsis/132940289_bdf1ec2d29_c.jpg",
+    "classe_reelle": "coreopsis",
+    "classe": "calendula",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.002758"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/coreopsis/11106778633_b7c76b1830_c.jpg",
+    "classe_reelle": "coreopsis",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.054682"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/coreopsis/21283197580_6ab0190a6b_c.jpg",
+    "classe_reelle": "coreopsis",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.106219"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/dandelion/4656886957_af709c7f85_c.jpg",
+    "classe_reelle": "dandelion",
+    "classe": "dandelion",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.167026"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/dandelion/6672146385_8fa93048cf_c.jpg",
+    "classe_reelle": "dandelion",
+    "classe": "dandelion",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.212800"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/dandelion/15623028310_a0260cd78a_c.jpg",
+    "classe_reelle": "dandelion",
+    "classe": "dandelion",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.261121"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/dandelion/7470960316_ef5f42c554_c.jpg",
+    "classe_reelle": "dandelion",
+    "classe": "dandelion",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.309813"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/dandelion/13977780852_8dec2f3d0b_c.jpg",
+    "classe_reelle": "dandelion",
+    "classe": "dandelion",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.355782"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/water_lily/5205141414_082ab48a1d_c.jpg",
+    "classe_reelle": "water_lily",
+    "classe": "california_poppy",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.409726"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/water_lily/20280953940_c9fc148ed2_c.jpg",
+    "classe_reelle": "water_lily",
+    "classe": "water_lily",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.457078"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/water_lily/48251562687_ec809cd451_c.jpg",
+    "classe_reelle": "water_lily",
+    "classe": "calendula",
+    "confiance": 0.9999998807907104,
+    "timestamp": "2025-03-06T11:32:24.508246"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/water_lily/51243284058_fc155e2be1_c.jpg",
+    "classe_reelle": "water_lily",
+    "classe": "rose",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.558151"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/water_lily/4737297596_900d9445e4_c.jpg",
+    "classe_reelle": "water_lily",
+    "classe": "water_lily",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.617705"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/sunflower/23956976908_a84281b056_c.jpg",
+    "classe_reelle": "sunflower",
+    "classe": "sunflower",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.669515"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/sunflower/36836841035_7e02ee0873_c.jpg",
+    "classe_reelle": "sunflower",
+    "classe": "sunflower",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.718549"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/sunflower/10088209136_2ca2a59218_c.jpg",
+    "classe_reelle": "sunflower",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.771362"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/sunflower/29836995915_4a065fd2d8_c.jpg",
+    "classe_reelle": "sunflower",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.820633"
+  },
+  {
+    "image": "/Users/ludovicveltz/Documents/Bootcamp_GENAI_2025/Crashcourse/WEEK_4/DAY_3/DATASET/Data/train/sunflower/5991225406_0040758057_c.jpg",
+    "classe_reelle": "sunflower",
+    "classe": "coreopsis",
+    "confiance": 1.0,
+    "timestamp": "2025-03-06T11:32:24.868992"
+  }
+]
