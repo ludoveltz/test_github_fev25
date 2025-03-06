@@ -1,0 +1,6 @@
+[submodule "hackaton_projet_W3D5"]
+	path = hackaton_projet_W3D5
+	url = https://github.com/ludoveltz/hackaton_projet_W3D5.git
+[submodule "test_github_fev25"]
+	path = test_github_fev25
+	url = https://github.com/ludoveltz/test_github_fev25.git
