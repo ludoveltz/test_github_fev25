@@ -7,3 +7,7 @@ test_github_fev25/
 *.onnx
 hackaton_projet_W3D5/
 test_github_fev25/
+*.h5
+WEEK_*/DAY_*/DATASET/*.txt
+WEEK_*/DAY_*/DATASET/*.csv
+WEEK_*/DAY_*/DATASET/*.xls
