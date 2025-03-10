@@ -24,3 +24,4 @@ def determiner_saison():
 
 # Exécution du programme
 print(determiner_saison())
+3
