@@ -1,4 +1,3 @@
-# Exercice 1 : Définition du Problème et Collecte de Données pour la Prédiction de Défaut de Prêt
 
 ## 1. Énoncé du Problème
 **Objectif** : Développer un modèle prédictif pour identifier les clients susceptibles de faire défaut sur leur prêt bancaire.
